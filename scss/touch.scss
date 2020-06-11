@@ -1,0 +1,35 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+//$body-bg: #2b3e50;
+$body-bg: $gray-800;
+//$body-color: #ebebeb;
+$body-color: $gray-100;
+
+$enable-responsive-font-sizes: true;
+$font-size-base: 1.5rem;
+
+//$jumbotron-bg: #4e5d6c;
+$jumbotron-bg: $gray-600;
+$link-color: $orange;
+$link-hover-color: $red;
+
+//$nav-pills-link-active-color: $white;
+//$nav-pills-link-active-bg: #df691a;
+$nav-pills-link-active-bg: $orange;
+
+$card-bg: transparent;
+$card-border-width: 0;
+
+@import "bootstrap/bootstrap";
+
+.nav-pills {
+  li > a {
+    color: $gray-100;
+  }
+}
+
+body {
+  padding-top: 70px;
+}

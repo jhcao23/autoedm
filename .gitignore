@@ -1,3 +1,9 @@
+# Bootstrap 4 scss
+scss/bootstrap/
+css/*.min.css.map
+scss/*.min.css
+scss/*.css.map
+
 .DS_Store
 */.DS_Store
 **/.DS_Store
